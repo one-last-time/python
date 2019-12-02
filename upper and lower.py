@@ -1,0 +1,5 @@
+name=input()
+name = name.lower()
+print(name)
+name= name.upper()
+print(name)
