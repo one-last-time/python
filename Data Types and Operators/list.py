@@ -1,4 +1,6 @@
 example = ['Jan','Feb','March',90,76.9]
+
+
 print(example[0])
 print(example[3])
 print(example[4])
@@ -7,6 +9,10 @@ print(example[-1])
 #ecnd from last
 print(example[-2])
 
+#create an empty list
+emptyList=[]
+emptyList.append("hi")
+print(emptyList)
 
 """
 Use list indexing to determine how many days are in a particular month based on the integer variable month, and store that value in the integer variable num_days. For example, if month is 8, num_days should be set to 31, since the eighth month, August, has 31 days.
